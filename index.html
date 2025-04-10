@@ -8,53 +8,82 @@
     <meta name="keywords" content="Molimel">
     <title>Molimel</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" href="assets/img/logo-molimel.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/LogoMolimel.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
-
 <body>
     <header>
         <nav>
-            <a href="index.html"><img src="assets/img/logo-molimel.png" alt="logo-molimel"></a>
-            <ul class="nav-list">
-                <li><a href="index.html">Página Inicial</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Contato</a></li>
+            <a href="#" class="home"><img src="assets/img/LogoMolimel.ico" alt="Logo"></a>
+            <ul>
+                <li class="nav-li"><a href="#">Home</a></li>
+                <li class="nav-li"><a href="#">Produtos</a></li>
+                <li class="nav-li"><a href="#">Sobre-nós</a></li>
             </ul>
+            <a href="#"><i class="fa-solid fa-user fa-2x"></i></a>
         </nav>
     </header>
     <main>
-        <div class="main-text">
-            <div class="background-img">
-                <div class="main-text">
-                    <h1 class="principal">MOLIMEL</h1>
-                    <h4 class="secundario">Diretamente das abelhas para você</h4>
+        <div id="background-img">
+            <div id="main-txt">
+                <h1>Molimel</h1>
+                <h2>Diretamente das abelhas para você</h2>
             </div>
-                
-            </div>
-            
         </div>
-        <div class="welcome">
+
+        <div id="main-content">
             <h1>Bem Vindo</h1>
-            <p>Na Molimel acreditamos que a natureza oferece os melhores presentes, e nada exemplifica isso melhor do
-                que o mel. Com uma paixão profunda pelas abelhas e pela apicultura sustentável, trazemos para você uma
-                seleção exclusiva de produtos apícolas de alta qualidade, diretamente da colmeia.
-            </p>
-            <p>
-                Cada pote de mel que você encontra aqui é produzido com cuidado e respeito ao meio ambiente, preservando
-                a saúde das abelhas e garantindo a pureza do nosso produto. Nosso mel é 100% natural, livre de aditivos
-                e conservantes, mantendo todas as propriedades nutritivas e saborosas que a natureza pode oferecer.
-            </p>
 
-            <!-- <div class="conheca-produtos">
-                <h1 class="conhecaProd">Conheça nossos produtos</h1>
-                <img src="assets/img/img-conhecaProd.png" alt="img-conhecaProd" class="img-conhecaProd">
-                <button class="produtos"><a href="#">Ver produtos</a></button>
-            </div> -->
+            <p>Na Molimel acreditamos que a natureza oferece os melhores presentes, e nada exemplifica isso melhor do que o mel. Com uma paixão profunda pelas abelhas e pela apicultura sustentável, trazemos para você uma seleção exclusiva de produtos apícolas de alta qualidade, diretamente da colmeia.</p>
+
+            <p>Cada pote de mel que você encontra aqui é produzido com cuidado e respeito ao meio ambiente, preservando a saúde das abelhas e garantindo a pureza do nosso produto. Nosso mel é 100% natural, livre de aditivos e conservantes, mantendo todas as propriedades nutritivas e saborosas que a natureza pode oferecer.</p>
         </div>
-    </main>
-    <footer>
 
+        <div class="alinhamento">
+            <div id="produtos">
+                <div id="textos">
+                    <h2>Conheça nosso produtos</h2>
+                    <picture>
+                        <img src="assets/img/potedeMel.png" alt="Pote de Mel" class="pote">
+                        <img src="assets/img/melEscorrendo.png" alt="Mel Escorrendo" class="vareta">
+                    </picture>
+                    <button>Ver produtos</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="conheca">
+            <div id="sobre">
+                <h2>Conheça a Molimel</h2>
+                <p>Está localizada na comunidade de Maquinista Molina, interior do Município de Porto União-SC, na divisa com os municipios de Matos Costa-SC e General Carneiro-PR, fazendo parte do corredor ecológico de Santa Catarina. Informalmente a Molimel existe desde o ano de 1998, conforme consta no livro ata da comunidade e relatado pelo Sr. Antônio Ribeiro dos Santos, Líder, Sócio e Fundador da Molimel, também o cedente do terreno conforme a documentação em posse da associação</p>
+            </div>
+
+            <div id="logo">
+                <img src="assets/img/LogoMolimel.jpg" alt="Logo Molimel">
+                <div id="objetivos">
+                    <h3>Nosso objetivo</h3>
+                    <p>Proporcionar aos nossos clientes produtos apícolas puros e naturais, promovendo a saúde e o bem-estar. Acreditamos que o mel é um presente da natureza, e nos dedicamos a preservar esse presente com todo cuidado e respeito que ele merece.</p>
+                    <div id="parceiros">
+                        <h3>Parceiros</h3>
+                        <picture class="logoparceiros">
+                            <img src="assets/img/logoFAASC.png" alt="logo FAASC">
+                            <img src="assets/img/logoEPAGRI.png" alt="logo EPAGRI">
+                            <img src="assets/img/logoPREFEITURAPU.png" alt="logo PREFEITURA">
+                            <img src="assets/img/logoCIDASC.png" alt="logo CIDASC">
+                            <img src="assets/img/logoUFSC.png" alt="logo UFSC">
+                            <img src="assets/img/logoWESTROCK.png" alt="logo WESTROCK">
+                            <img src="assets/img/logoSENARCREA.png" alt="logo SENAR e CREA">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </main>
+
+    <footer>
+        <p>Molimel &copy; 2025</p>
     </footer>
 </body>
-
 </html>
